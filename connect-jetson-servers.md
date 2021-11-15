@@ -17,11 +17,11 @@ Paste the following code to the end of this file.
         ForwardX11 yes
         ForwardAgent yes
         
-Close vim and save the file by pressing $Ctl + c$, and entering `:wq`
+Close vim and save the file by pressing `Ctl + c`, and entering `:wq`
 
 ## Step 2
 
-How you are ready to connect to Jetson 00. Please enter the following command
+How you are ready to connect to Jetson 00. To test your setup, please enter the following command
 
 `ssh curc-public@jetson-00`
 
