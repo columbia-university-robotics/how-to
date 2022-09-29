@@ -1,6 +1,6 @@
 # How to Connect to Jetson Server
 
-Each team will have a different device (Jetson). Each Jetson has a two digit ID, for example, the computer vision team of the autonomous vehicles project has `jetson-00`. This tutorial will show you how to log into `jetson-00`
+Each team will have a different device (Jetson). Each Jetson has a two digit ID, for example, the computer vision team of the autonomous vehicles project has `jetson-tx2`. This tutorial will show you how to log into `jetson-tx2', the jetson that the car runs on. 
 
 ## Step 1
 
@@ -10,10 +10,10 @@ We need to edit the `.ssh/config` file. Please enter the following command
 
 Paste the following code to the end of this file. 
 
-    Host jetson-00
+    Host jetson-tx2
         ProxyJump tunnel@servers.columbiaroboticsclub.com
         Hostname localhost
-        Port 43100
+        Port 43108
         ForwardX11 yes
         ForwardAgent yes
         
