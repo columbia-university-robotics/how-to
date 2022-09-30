@@ -10,7 +10,9 @@ Please message Tameem (tma2153[at] columbia.edu) and or Justin (jc5525[at] colum
 
 First do these two steps to enable your computer to connect to Git as your user:
 [First set up an ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 [Then pair it to Git](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
 To contribute to a CURC repo, perform the following steps: 
 
 First clone the repo you wish to contribute to (self driving, in this example):
