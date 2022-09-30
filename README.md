@@ -8,14 +8,11 @@ Please message Tameem (tma2153[at] columbia.edu) and or Justin (jc5525[at] colum
 
 ## Contributing
 
-First perform these two links to enable your computer to connect to Git as your user:
-First set up an ssh key (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-Then pair it to Git (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+First do these two steps to enable your computer to connect to Git as your user:
+[First set up an ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+[Then pair it to Git](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 To contribute to a CURC repo, perform the following steps: 
 
-****
-First, make sure your SSH key is set up locally and paired to git. 
-****
 First clone the repo you wish to contribute to (self driving, in this example):
     git clone git@github.com:columbia-university-robotics/self-driving-car.git
 
