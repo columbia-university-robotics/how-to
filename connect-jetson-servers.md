@@ -30,3 +30,13 @@ You will be prompted to enter the tunnel password. You will be prompted to enter
 ## Step 3
 
 Ask your sub-team lead to create your own user account on the Jetson.  I recommend using your uni as your username. Once your personal account has been created, you can try logging with `ssh uni@jetson-tx2`. 
+
+
+## (optional) Step 4
+
+To log into the Jetson without needing a password, do the following 2 steps:
+
+1. Navigate to your ~/.ssh directory and run ssh-keygen
+2. Then run ssh-copy-id -i (the filename of the public key) uni@jetson-tx2
+
+Follow the prompts and you'll have the key shared with the remote server, and be able to ssh without your password (but you'll still need the tunnel password)
